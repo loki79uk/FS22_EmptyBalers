@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="65">
+	<author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Empty Balers</en>
+        <de>Leere Ballenpressen</de>
+        <fr>Presses À Balles Vides</fr>
+</title>
+    <description>
+<en><![CDATA[This mod adds a button to empty out a partially full baler so that you can start a new fill type [default CTRL-DELETE].  You must first unload any complete bales, but otherwise the action can be performed at any time.  The partial bale will dissapear and the baler will then accept the next fill type.
+
+Features:
+- Remove partial bales from any baler
+- Works with square and round bales
+- Cotton bales are unaffected
+]]>
+</en>
+<de><![CDATA[Dieser Mod fügt einen Tastenbefehl zum entleeren einer teilweise vollen Ballenpresse hinzu, somit lässt sich ein neuer Fülltyp starten [Standard CTRL-DELETE].  
+Sie müssen zuerst alle kompletten Ballen entladen, ansonsten kann die Aktion jederzeit ausgeführt werden.  Der teilweise gefüllte Ballen verschwindet und die Presse akzeptiert die nächste Füllart.
+
+Merkmale:
+- Entfernen unvollständiger Ballen von jeder Ballenpresse
+- Funktioniert mit Quader und Rundballen
+- Baumwollballen sind davon nicht betroffen
+]]>
+</de>
+<fr><![CDATA[Ce mod ajoute un bouton pour vider une presse à balles partiellement pleine afin de pouvoir commencer un nouveau type de remplissage [par défaut CTRL-DELETE].  Vous devez d'abord décharger les balles complètes, mais sinon l'action peut être effectuée à tout moment.  La balle partielle disparaîtra et la presse acceptera alors le type de remplissage suivant.
+
+Caractéristiques:
+- Retirer des balles partielles de n'importe quelle presse à balles
+- Fonctionne avec des balles carrées et rondes
+- Les balles de coton ne sont pas touchées
+]]>
+</fr>
+    </description>
+	<multiplayer supported="true"/>
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="register.lua"/>
+	</extraSourceFiles>
+	<actions>
+		<action name="EMPTY_BALER" category="VEHICLE"/>
+	</actions>
+	<inputBinding>
+		<actionBinding action="EMPTY_BALER">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_delete"/>
+		</actionBinding>
+	</inputBinding>	
+	<l10n>
+		<text name="menu_EMPTY_BALER">
+			<en>Empty Baler</en>
+			<de>Leere Ballenpresse</de>
+			<fr>Presse à Balles Vides</fr>
+		</text>
+		<text name="input_EMPTY_BALER">
+			<en>Empty Baler</en>
+			<de>Leere Ballenpresse</de>
+			<fr>Presse à Balles Vides</fr>
+		</text>
+	</l10n>
+</modDesc>
