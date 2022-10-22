@@ -6,6 +6,7 @@
         <en>Empty Balers</en>
         <de>Leere Ballenpressen</de>
         <fr>Presses À Balles Vides</fr>
+		<ru>Опустошение тюковщиков</ru>
 </title>
     <description>
 <en><![CDATA[This mod adds a button to empty out a partially full baler so that you can start a new fill type [default CTRL-DELETE].  You must first unload any complete bales, but otherwise the action can be performed at any time.  The partial bale will dissapear and the baler will then accept the next fill type.
@@ -52,11 +53,13 @@ Caractéristiques:
 			<en>Empty Baler</en>
 			<de>Leere Ballenpresse</de>
 			<fr>Presse à Balles Vides</fr>
+			<ru>Опустошить тюковщик</ru>
 		</text>
 		<text name="input_EMPTY_BALER">
 			<en>Empty Baler</en>
 			<de>Leere Ballenpresse</de>
 			<fr>Presse à Balles Vides</fr>
+			<ru>Опустошить тюковщик</ru>
 		</text>
 	</l10n>
 </modDesc>
